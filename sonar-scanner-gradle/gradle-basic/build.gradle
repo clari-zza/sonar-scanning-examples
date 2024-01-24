@@ -9,12 +9,10 @@ description = 'Example of SonarScanner for Gradle Usage'
 version = '1.0'
 
 sonar {
-    properties {
-        property('sonar.projectName', 'Example of SonarScanner for Gradle Usage')
-        property("sonar.projectKey", "sonar-scanner-gradle")
-        property("sonar.sources", "src/main")
-        property "sonar.tests", "src/test"
-    }
+  properties {
+    property "sonar.projectKey", "clari-zza_sonar-scanning-examples_AY05nnsiS33dbqsVUgTE"
+    property "sonar.projectName", "sonar-scanning-examples"
+  }
 }
 
 // In this section you declare where to find the dependencies of your project
