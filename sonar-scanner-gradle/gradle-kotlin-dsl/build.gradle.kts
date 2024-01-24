@@ -26,12 +26,14 @@ sourceSets {
     }
 }
 
+    
 sonar {
-    properties {
-        property("sonar.projectKey", "baeldung-gradle-kotlin-dsl")
-        property("sonar.projectName", "Example of Gradle Project with Kotlin DSL")
-    }
+  properties {
+    property("sonar.projectKey", "clari-zza_sonar-scanning-examples_AY05nnsiS33dbqsVUgTE")
+    property("sonar.projectName", "sonar-scanning-examples")
+  }
 }
+
 
 val integrationTestImplementation: Configuration by configurations.getting {
     extendsFrom(configurations.implementation.get())
